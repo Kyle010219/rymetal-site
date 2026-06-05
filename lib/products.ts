@@ -104,7 +104,7 @@ export const products = [
   },
   {
     "name": "Bakelite Handle RT-006",
-    "slug": "bakelite-handle-rt-006",
+    "slug": "bakelite-handle-ry-006",
     "category": "bakelite-handle",
     "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
     "material": "Bakelite",
@@ -170,7 +170,7 @@ export const products = [
   },
   {
     "name": "Bakelite Side Handle RT-006",
-    "slug": "bakelite-side-handle-rt-006",
+    "slug": "bakelite-side-handle-ry-006",
     "category": "bakelite-side-handle",
     "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
     "material": "Bakelite",
@@ -236,7 +236,7 @@ export const products = [
   },
   {
     "name": "Bakelite Knob RT-006",
-    "slug": "bakelite-knob-rt-006",
+    "slug": "bakelite-knob-ry-006",
     "category": "bakelite-knob",
     "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
     "material": "Bakelite",
@@ -302,7 +302,7 @@ export const products = [
   },
   {
     "name": "Stainless Handle RT-006",
-    "slug": "stainless-handle-rt-006",
+    "slug": "stainless-handle-ry-006",
     "category": "stainless-handle",
     "description": "Polished stainless steel long handles for premium cookware.",
     "material": "Stainless Steel",
@@ -368,7 +368,7 @@ export const products = [
   },
   {
     "name": "Stainless Side Handle RT-006",
-    "slug": "stainless-side-handle-rt-006",
+    "slug": "stainless-side-handle-ry-006",
     "category": "stainless-side-handle",
     "description": "Stainless side handles with strong rivet or screw mounting.",
     "material": "Stainless Steel",
@@ -434,7 +434,7 @@ export const products = [
   },
   {
     "name": "Stainless Knob RT-006",
-    "slug": "stainless-knob-rt-006",
+    "slug": "stainless-knob-ry-006",
     "category": "stainless-knob",
     "description": "Stainless steel knobs for cookware lids and glass covers.",
     "material": "Stainless Steel",
@@ -500,7 +500,7 @@ export const products = [
   },
   {
     "name": "Cast Zinc Handle RT-006",
-    "slug": "cast-zinc-handle-rt-006",
+    "slug": "cast-zinc-handle-ry-006",
     "category": "cast-zinc-handle",
     "description": "Cast zinc handles with chrome plating or custom finishes.",
     "material": "Cast Zinc",
@@ -566,7 +566,7 @@ export const products = [
   },
   {
     "name": "Cast Zinc Side Handle RT-006",
-    "slug": "cast-zinc-side-handle-rt-006",
+    "slug": "cast-zinc-side-handle-ry-006",
     "category": "cast-zinc-side-handle",
     "description": "Cast zinc side handles for cookware and lids.",
     "material": "Cast Zinc",
@@ -632,7 +632,7 @@ export const products = [
   },
   {
     "name": "Cast Zinc Lid Handle RT-006",
-    "slug": "cast-zinc-lid-handle-rt-006",
+    "slug": "cast-zinc-lid-handle-ry-006",
     "category": "cast-zinc-lid-handle",
     "description": "Cast zinc lid handles for glass lids and stainless covers.",
     "material": "Cast Zinc",

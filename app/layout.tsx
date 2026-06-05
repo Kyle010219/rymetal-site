@@ -6,7 +6,7 @@ import WhatsApp from "@/components/WhatsApp";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "RT METAL | Cookware Handle Manufacturer",
+  title: "RYMETAL | Cookware Handle Manufacturer",
   description: "Bakelite, stainless steel and cast zinc cookware handles, side handles and knobs with OEM & ODM service.",
 };
 
