@@ -2,19 +2,75 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-r from-white via-white to-slate-100">
-      <div className="container-xl grid min-h-[620px] items-center gap-8 py-14 lg:grid-cols-2">
-        <div>
-          <h1 className="text-5xl font-black leading-tight tracking-tight md:text-6xl">PROFESSIONAL <span className="text-brand-orange">COOKWARE HANDLE</span> MANUFACTURER</h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-slate-700">Bakelite, Stainless Steel & Cast Zinc handles, side handles and knobs for cookware brands, importers and factories.</p>
-          <div className="mt-8 grid grid-cols-2 gap-5 text-sm md:grid-cols-4">
-            {["20+ Years", "OEM & ODM", "Strict QC", "Global Export"].map(x => <div key={x} className="rounded-xl bg-white p-4 text-center shadow-soft font-semibold">{x}</div>)}
+    <section className="relative h-[85vh] w-full overflow-hidden bg-slate-900">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 h-full w-full object-cover opacity-60 grayscale-[0.3]"
+      >
+        <source src="/videos/factory-tour.mp4" type="video/mp4" />
+      </video>
+
+      {/* Modern Overlay Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
+
+      {/* Content */}
+      <div className="container-xl relative z-10 flex h-full items-center">
+        <div className="max-w-3xl">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-md">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-blue-400 opacity-75"></span>
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-blue-500"></span>
+            </span>
+            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white">Direct Factory Supply</span>
           </div>
-          <div className="mt-8 flex gap-4"><Link href="/category/bakelite-handle" className="btn-primary">View Products</Link><Link href="/contact" className="btn-secondary">Contact Us</Link></div>
+          
+          <h1 className="text-6xl font-black leading-[0.9] tracking-tighter text-white md:text-8xl">
+            Pure <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-400">Engineering.</span>
+          </h1>
+          
+          <p className="mt-8 max-w-xl text-xl font-light leading-relaxed text-slate-300">
+            Professional Cookware Accessories Manufacturer. 18 years of excellence in Bakelite, Stainless Steel, and Zinc Alloy precision components.
+          </p>
+
+          <div className="mt-12 flex flex-wrap gap-6">
+            <Link 
+              href="/products" 
+              className="group relative overflow-hidden rounded-full bg-white px-12 py-5 text-sm font-bold text-slate-900 transition-all hover:scale-105"
+            >
+              <span className="relative z-10 uppercase tracking-widest">Master Catalog</span>
+            </Link>
+            <Link 
+              href="/contact" 
+              className="rounded-full border-2 border-white/30 bg-white/5 px-12 py-5 text-sm font-bold text-white backdrop-blur-md transition-all hover:bg-white hover:text-slate-900"
+            >
+              <span className="uppercase tracking-widest">Get a Quote</span>
+            </Link>
+          </div>
+
+          <div className="mt-16 grid grid-cols-2 gap-10 border-t border-white/10 pt-10 text-white md:grid-cols-4">
+            {[
+              { label: "R&D Experience", value: "18+ Years" },
+              { label: "Daily Output", value: "50,000+ pcs" },
+              { label: "Factory Size", value: "2,000 m²" },
+              { label: "Global Partners", value: "300+" }
+            ].map((stat) => (
+              <div key={stat.label}>
+                <div className="text-2xl font-black italic">{stat.value}</div>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-slate-400">{stat.label}</div>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="rounded-3xl bg-white p-4 shadow-soft">
-          <img src="/images/hero/cookware-hero.png" alt="RT METAL cookware handles applied on cookware" className="h-full w-full rounded-2xl object-contain" />
-        </div>
+      </div>
+
+      {/* Architectural grid overlay */}
+      <div className="absolute inset-0 z-0 opacity-[0.05] pointer-events-none">
+        <div className="h-full w-full bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:60px_60px]"></div>
       </div>
     </section>
   );
