@@ -30,27 +30,29 @@ export default function Home() {
             <Link 
               key={c.slug} 
               href={`/category/${c.slug}`} 
-              className="group card-luxury relative h-[500px] flex flex-col justify-between"
+              className="group card-luxury relative h-[600px] flex flex-col items-center text-center justify-between py-16"
             >
-              <div>
-                <span className="text-6xl font-black text-slate-50 group-hover:text-blue-50 transition-colors duration-700 italic block mb-4">0{index + 1}</span>
+              <div className="relative z-10 w-full">
+                <span className="text-7xl font-black text-blue-600/10 group-hover:text-[#FF9900]/20 transition-colors duration-700 italic block mb-2">0{index + 1}</span>
                 <h3 className="text-3xl font-bold tracking-tighter mb-4 group-hover:text-blue-600 transition-colors duration-500">{c.name}</h3>
-                <p className="muted text-sm font-medium uppercase tracking-widest opacity-60">{c.description}</p>
+                <p className="muted text-xs font-bold uppercase tracking-[0.2em] px-4 opacity-60">{c.description}</p>
               </div>
 
-              <div className="mt-auto">
-                <div className="flex items-center gap-4 text-slate-900 font-black text-xs uppercase tracking-[0.2em] group-hover:gap-6 transition-all duration-500">
-                  Discover Series <span className="w-8 h-px bg-slate-900 group-hover:w-12 transition-all duration-500"></span>
-                </div>
-              </div>
-
-              {/* Product Visual */}
-              <div className="absolute -bottom-16 -right-16 h-72 w-72 opacity-30 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000 transform group-hover:scale-110 group-hover:-translate-y-4">
+              {/* Centered Product Visual */}
+              <div className="relative z-10 h-64 w-full flex items-center justify-center my-8">
+                <div className="absolute inset-0 bg-slate-50 rounded-full scale-75 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-700"></div>
                 {c.image ? (
-                  <img src={c.image} alt={c.name} className="h-full w-full object-contain drop-shadow-2xl" />
+                  <img src={c.image} alt={c.name} className="relative z-20 max-h-full max-w-[80%] object-contain drop-shadow-2xl transition-all duration-1000 transform group-hover:scale-110" />
                 ) : (
-                  <div className="h-full w-full rounded-full bg-slate-50 border border-slate-100"></div>
+                  <div className="relative z-20 h-32 w-32 rounded-full border-2 border-dashed border-slate-200 flex items-center justify-center text-slate-300 text-[10px] font-bold uppercase tracking-widest">Image Pending</div>
                 )}
+              </div>
+
+              <div className="relative z-10 mt-auto">
+                <div className="flex flex-col items-center gap-4 text-slate-900 font-black text-[10px] uppercase tracking-[0.3em] group-hover:text-blue-600 transition-all duration-500">
+                  <span className="w-px h-8 bg-slate-200 group-hover:bg-blue-600 transition-all duration-500 mb-2"></span>
+                  Discover Series
+                </div>
               </div>
             </Link>
           ))}
