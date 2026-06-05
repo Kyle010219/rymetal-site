@@ -8,9 +8,21 @@ export interface Category {
 export const categories: Category[] = [
   {
     "slug": "bakelite-handle",
-    "name": "Bakelite Handle",
+    "name": "Bakelite Series",
     "description": "",
     "image": "https://sc02.alicdn.com/kf/H4d94bbb1ccda4bec95b4366dd8ac49e0T.png"
+  },
+  {
+    "slug": "stainless-handle",
+    "name": "Stainless Series",
+    "description": "Premium mirror-polished metal aesthetics.",
+    "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
+  },
+  {
+    "slug": "cast-zinc-handle",
+    "name": "Cast Series",
+    "description": "Heavy-duty precision die-cast strength.",
+    "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
     "slug": "bakelite-side-handle",
@@ -24,12 +36,6 @@ export const categories: Category[] = [
     "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
-    "slug": "stainless-handle",
-    "name": "Stainless Handle",
-    "description": "Premium mirror-polished metal aesthetics.",
-    "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
-  },
-  {
     "slug": "stainless-side-handle",
     "name": "Stainless Side Handle",
     "description": "Architectural grade forged hardware.",
@@ -40,12 +46,6 @@ export const categories: Category[] = [
     "name": "Stainless Knob",
     "description": "Elegant luxury details for high-end lids.",
     "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
-  },
-  {
-    "slug": "cast-zinc-handle",
-    "name": "Cast Zinc Handle",
-    "description": "Heavy-duty precision die-cast strength.",
-    "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
     "slug": "cast-zinc-side-handle",
