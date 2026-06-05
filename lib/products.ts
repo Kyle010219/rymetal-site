@@ -9,14 +9,12 @@ export const categories: Category[] = [
   {
     "slug": "bakelite-handle",
     "name": "Bakelite Handle",
-    "description": "Professional heat-resistant ergonomic solutions.",
-    "image": "https://sc02.alicdn.com/kf/H6a772edfdb1e4e52871b1e6098bd64b55.png"
+    "description": "Professional heat-resistant ergonomic solutions."
   },
   {
     "slug": "bakelite-side-handle",
     "name": "Bakelite Side Handle",
-    "description": "High-durability safety components for pots.",
-    "image": "https://sc02.alicdn.com/kf/H3d57b3971b384091a03e447486193e04o.png"
+    "description": "High-durability safety components for pots."
   },
   {
     "slug": "bakelite-knob",
