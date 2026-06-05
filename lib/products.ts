@@ -41,7 +41,7 @@ export const categories = [
   },
   {
     "slug": "cast-zinc-lid-handle",
-    "name": "Cast Zinc Lid Handle",
+    "name": "Cast Lid Handle",
     "description": "Cast zinc lid handles for glass lids and stainless covers."
   }
 ] as const;
@@ -644,3 +644,5 @@ export const products = [
 ] as const;
 
 export type Product = typeof products[number];
+er];
+er];
