@@ -9,55 +9,55 @@ export const categories: Category[] = [
   {
     "slug": "bakelite-handle",
     "name": "Bakelite Handle",
-    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "description": "Professional heat-resistant ergonomic solutions.",
     "image": "https://sc02.alicdn.com/kf/H6a772edfdb1e4e52871b1e6098bd64b55.png"
   },
   {
     "slug": "bakelite-side-handle",
     "name": "Bakelite Side Handle",
-    "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
+    "description": "High-durability safety components for pots.",
     "image": "https://sc02.alicdn.com/kf/H3d57b3971b384091a03e447486193e04o.png"
   },
   {
     "slug": "bakelite-knob",
     "name": "Bakelite Knob",
-    "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
+    "description": "Precision lid accessories for every cover.",
     "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
     "slug": "stainless-handle",
     "name": "Stainless Handle",
-    "description": "Polished stainless steel long handles for premium cookware.",
+    "description": "Premium mirror-polished metal aesthetics.",
     "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
   },
   {
     "slug": "stainless-side-handle",
     "name": "Stainless Side Handle",
-    "description": "Stainless side handles with strong rivet or screw mounting.",
+    "description": "Architectural grade forged hardware.",
     "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
   },
   {
     "slug": "stainless-knob",
     "name": "Stainless Knob",
-    "description": "Stainless steel knobs for cookware lids and glass covers.",
+    "description": "Elegant luxury details for high-end lids.",
     "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
   },
   {
     "slug": "cast-zinc-handle",
     "name": "Cast Zinc Handle",
-    "description": "Cast zinc handles with chrome plating or custom finishes.",
+    "description": "Heavy-duty precision die-cast strength.",
     "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
     "slug": "cast-zinc-side-handle",
     "name": "Cast Zinc Side Handle",
-    "description": "Cast zinc side handles for cookware and lids.",
+    "description": "Solid-core industrial kitchenware parts.",
     "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
     "slug": "cast-zinc-lid-handle",
     "name": "Cast Lid Handle",
-    "description": "Cast zinc lid handles for glass lids and stainless covers.",
+    "description": "Seamless transition from CAD to casting.",
     "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   }
 ];

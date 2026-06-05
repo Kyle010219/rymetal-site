@@ -9,35 +9,47 @@ export default function Home() {
       <Hero />
 
       {/* Material Innovation Section */}
-      <section className="container-xl py-32">
-        <div className="flex flex-col items-end justify-between gap-8 md:flex-row mb-20">
-          <div className="max-w-xl">
-            <span className="tag-industrial mb-4 block">Our Materiality</span>
-            <h2 className="section-title leading-none">The Trinity of <br/> Cookware Hardware.</h2>
+      <section className="container-xl py-48 relative overflow-hidden">
+        {/* Subtle decorative elements */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-50/50 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"></div>
+        
+        <div className="flex flex-col items-end justify-between gap-12 md:flex-row mb-32 relative z-10">
+          <div className="max-w-2xl">
+            <span className="tag-industrial mb-6 block tracking-[0.3em]">Engineering The Future</span>
+            <h2 className="text-6xl lg:text-8xl font-black tracking-tighter leading-[0.85] text-slate-900">
+              The Trinity of <br/> <span className="text-blue-600">Hardware.</span>
+            </h2>
           </div>
-          <p className="muted max-w-sm">Every handle is a promise of engineering excellence. We specialize in the three fundamental materials of modern kitchens.</p>
+          <p className="muted max-w-sm text-lg border-l-2 border-slate-100 pl-8">
+            Every handle is a masterclass in ergonomics. We define the standard for Bakelite, Stainless, and Zinc components.
+          </p>
         </div>
         
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-3 relative z-10">
           {categories.slice(0, 3).map((c: Category, index) => (
             <Link 
               key={c.slug} 
               href={`/category/${c.slug}`} 
-              className="group card-luxury relative overflow-hidden"
+              className="group card-luxury relative h-[500px] flex flex-col justify-between"
             >
-              <div className="relative z-10">
-                <span className="text-4xl font-black text-slate-100 group-hover:text-blue-50 transition-colors duration-500 italic block mb-6">0{index + 1}</span>
-                <h3 className="text-2xl font-bold tracking-tight mb-4">{c.name}</h3>
-                <p className="muted mb-8 line-clamp-2">{c.description}</p>
-                <div className="flex items-center gap-3 text-blue-600 font-bold text-xs uppercase tracking-widest">
-                  Explore Series <span>→</span>
+              <div>
+                <span className="text-6xl font-black text-slate-50 group-hover:text-blue-50 transition-colors duration-700 italic block mb-4">0{index + 1}</span>
+                <h3 className="text-3xl font-bold tracking-tighter mb-4 group-hover:text-blue-600 transition-colors duration-500">{c.name}</h3>
+                <p className="muted text-sm font-medium uppercase tracking-widest opacity-60">{c.description}</p>
+              </div>
+
+              <div className="mt-auto">
+                <div className="flex items-center gap-4 text-slate-900 font-black text-xs uppercase tracking-[0.2em] group-hover:gap-6 transition-all duration-500">
+                  Discover Series <span className="w-8 h-px bg-slate-900 group-hover:w-12 transition-all duration-500"></span>
                 </div>
               </div>
-              <div className="absolute -bottom-10 -right-10 h-64 w-64 opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 transform group-hover:scale-110">
+
+              {/* Product Visual */}
+              <div className="absolute -bottom-16 -right-16 h-72 w-72 opacity-30 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000 transform group-hover:scale-110 group-hover:-translate-y-4">
                 {c.image ? (
-                  <img src={c.image} alt={c.name} className="h-full w-full object-contain" />
+                  <img src={c.image} alt={c.name} className="h-full w-full object-contain drop-shadow-2xl" />
                 ) : (
-                  <div className="h-full w-full rounded-full bg-slate-100"></div>
+                  <div className="h-full w-full rounded-full bg-slate-50 border border-slate-100"></div>
                 )}
               </div>
             </Link>
