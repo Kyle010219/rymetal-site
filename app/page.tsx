@@ -63,7 +63,7 @@ export default function Home() {
                      <img 
                       src={c.image} 
                       alt={c.name} 
-                      className={`max-h-full max-w-[115%] object-contain drop-shadow-[0_25px_25px_rgba(0,0,0,0.1)] group-hover:drop-shadow-[0_35px_35px_rgba(59,130,246,0.1)] transition-all duration-1000 transform group-hover:scale-110 group-hover:-translate-y-4 ${index === 1 ? 'mix-blend-multiply' : ''}`} 
+                      className="max-h-full max-w-[115%] object-contain drop-shadow-[0_25px_25px_rgba(0,0,0,0.1)] group-hover:drop-shadow-[0_35px_35px_rgba(59,130,246,0.1)] transition-all duration-1000 transform group-hover:scale-110 group-hover:-translate-y-4" 
                     />
                   </div>
                 ) : (
