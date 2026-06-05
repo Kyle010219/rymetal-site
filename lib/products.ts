@@ -16,7 +16,7 @@ export const categories: Category[] = [
     "slug": "stainless-handle",
     "name": "Stainless Series",
     "description": "Premium mirror-polished metal aesthetics.",
-    "image": "https://sc02.alicdn.com/kf/He99b8284d4294338a69eee32f0c7f2101.jpg"
+    "image": "https://sc02.alicdn.com/kf/H9cc89da20e3f45319dcbac034756f5a2O.png"
   },
   {
     "slug": "cast-zinc-handle",
