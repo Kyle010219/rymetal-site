@@ -12,7 +12,7 @@ export default function Header() {
         </Link>
         
         <nav className="hidden lg:flex items-center gap-10">
-          <div className="flex gap-8 text-[13px] font-semibold tracking-wide text-slate-500">
+          <div className="flex gap-10 text-[20px] font-bold tracking-tight text-slate-700">
             <Link href="/" className="hover:text-[#FF9900] transition duration-300">Home</Link>
             <Link href="/category/bakelite-handle" className="hover:text-[#FF9900] transition duration-300">Products</Link>
             <Link href="/oem-odm" className="hover:text-[#FF9900] transition duration-300">OEM & ODM</Link>
