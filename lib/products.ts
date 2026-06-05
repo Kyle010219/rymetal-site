@@ -15,13 +15,13 @@ export const categories: Category[] = [
   {
     "slug": "stainless-handle",
     "name": "Stainless Series",
-    "description": "Premium mirror-polished metal aesthetics.",
-    "image": "https://sc02.alicdn.com/kf/H433eb6cea1354e04ae858aaa8ceae372c.png"
+    "description": "",
+    "image": ""
   },
   {
     "slug": "cast-zinc-handle",
     "name": "Cast Series",
-    "description": "Heavy-duty precision die-cast strength.",
+    "description": "",
     "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
