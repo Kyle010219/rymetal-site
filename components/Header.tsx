@@ -11,14 +11,14 @@ export default function Header() {
           </span>
         </Link>
         
-        <nav className="hidden lg:flex items-center gap-12">
-          <div className="flex gap-10 text-[11px] font-black uppercase tracking-[0.2em] text-slate-400">
-            <Link href="/" className="hover:text-slate-900 transition">Home</Link>
-            <Link href="/category/bakelite-handle" className="hover:text-slate-900 transition">Products</Link>
-            <Link href="/oem-odm" className="hover:text-slate-900 transition">OEM & ODM</Link>
-            <Link href="/factory" className="hover:text-slate-900 transition">Factory</Link>
-            <Link href="/about" className="hover:text-slate-900 transition">About Us</Link>
-            <Link href="/contact" className="hover:text-slate-900 transition">Contact</Link>
+        <nav className="hidden lg:flex items-center gap-10">
+          <div className="flex gap-8 text-[13px] font-semibold tracking-wide text-slate-500">
+            <Link href="/" className="hover:text-[#FF9900] transition duration-300">Home</Link>
+            <Link href="/category/bakelite-handle" className="hover:text-[#FF9900] transition duration-300">Products</Link>
+            <Link href="/oem-odm" className="hover:text-[#FF9900] transition duration-300">OEM & ODM</Link>
+            <Link href="/factory" className="hover:text-[#FF9900] transition duration-300">Factory</Link>
+            <Link href="/about" className="hover:text-[#FF9900] transition duration-300">About Us</Link>
+            <Link href="/contact" className="hover:text-[#FF9900] transition duration-300">Contact</Link>
           </div>
           <Link href="/contact" className="bg-slate-900 text-white px-10 py-4 rounded-full text-xs font-bold hover:bg-[#FF9900] hover:scale-105 transition-all duration-500 shadow-xl shadow-slate-200">
             GET A QUOTE
