@@ -33,9 +33,12 @@ export default function Home() {
                   Explore Series <span>→</span>
                 </div>
               </div>
-              <div className="absolute -bottom-10 -right-10 h-48 w-48 opacity-10 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 transform group-hover:scale-110">
-                {/* Product category image placeholder or icon */}
-                <div className="h-full w-full rounded-full bg-slate-100"></div>
+              <div className="absolute -bottom-10 -right-10 h-64 w-64 opacity-20 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 transform group-hover:scale-110">
+                {c.image ? (
+                  <img src={c.image} alt={c.name} className="h-full w-full object-contain" />
+                ) : (
+                  <div className="h-full w-full rounded-full bg-slate-100"></div>
+                )}
               </div>
             </Link>
           ))}
