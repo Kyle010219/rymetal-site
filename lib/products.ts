@@ -10,7 +10,7 @@ export const categories: Category[] = [
     "slug": "bakelite-handle",
     "name": "Bakelite Handle",
     "description": "",
-    "image": "https://sc02.alicdn.com/kf/H80d06499fc2b401cb9c679f3d8435d11K.png"
+    "image": "https://sc02.alicdn.com/kf/H4d94bbb1ccda4bec95b4366dd8ac49e0T.png"
   },
   {
     "slug": "bakelite-side-handle",
