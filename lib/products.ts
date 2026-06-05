@@ -16,7 +16,7 @@ export const categories: Category[] = [
     "slug": "stainless-handle",
     "name": "Stainless Series",
     "description": "",
-    "image": ""
+    "image": "https://sc02.alicdn.com/kf/He8a9837e707e402d8e30e309796dbe943.png"
   },
   {
     "slug": "cast-zinc-handle",
