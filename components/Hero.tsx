@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative h-[85vh] w-full overflow-hidden bg-slate-900">
+    <section className="relative min-h-[85vh] w-full overflow-hidden bg-slate-900 flex items-center py-24 lg:py-32">
       {/* Background Video */}
       <video
         autoPlay
@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
 
       {/* Content */}
-      <div className="container-xl relative z-10 flex h-full items-center">
+      <div className="container-xl relative z-10 w-full">
         <div className="max-w-3xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-md">
             <span className="relative flex h-2 w-2">
