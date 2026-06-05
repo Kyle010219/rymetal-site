@@ -2,17 +2,20 @@ export const categories = [
   {
     "slug": "bakelite-handle",
     "name": "Bakelite Handle",
-    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets."
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "image": "https://sc02.alicdn.com/kf/H6a772edfdb1e4e52871b1e6098bd64b55.png"
   },
   {
     "slug": "bakelite-side-handle",
     "name": "Bakelite Side Handle",
-    "description": "Durable bakelite side handles for pots, casseroles and stockpots."
+    "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
+    "image": "https://sc02.alicdn.com/kf/H3d57b3971b384091a03e447486193e04o.png"
   },
   {
     "slug": "bakelite-knob",
     "name": "Bakelite Knob",
-    "description": "Bakelite lid knobs for glass lids and stainless steel lids."
+    "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
+    "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
     "slug": "stainless-handle",

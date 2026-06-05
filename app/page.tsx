@@ -33,7 +33,7 @@ export default function Home() {
                   Explore Series <span>→</span>
                 </div>
               </div>
-              <div className="absolute -bottom-10 -right-10 h-64 w-64 opacity-20 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 transform group-hover:scale-110">
+              <div className="absolute -bottom-10 -right-10 h-64 w-64 opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 transform group-hover:scale-110">
                 {c.image ? (
                   <img src={c.image} alt={c.name} className="h-full w-full object-contain" />
                 ) : (
