@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+<rect width="900" height="650" fill="#f7f8fa"/>
+<ellipse cx="450" cy="520" rx="260" ry="45" fill="#e5e7eb"/>
+<path d="M230 340 C330 230 560 220 675 320" stroke="#111827" stroke-width="70" stroke-linecap="round" fill="none"/>
+<circle cx="230" cy="340" r="55" fill="#343a40"/>
+<circle cx="675" cy="320" r="55" fill="#343a40"/>
+<text x="450" y="110" font-family="Arial" font-size="42" font-weight="700" fill="#111827" text-anchor="middle">Bakelite Handle</text>
+<text x="450" y="160" font-family="Arial" font-size="22" fill="#ff6a00" text-anchor="middle">RT METAL</text>
+</svg>

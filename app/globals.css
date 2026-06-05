@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { background: #fff; color: #12151c; }
+a { transition: all .2s ease; }
+.container-xl { @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8; }
+.btn-primary { @apply inline-flex items-center justify-center rounded-md bg-brand-orange px-6 py-3 font-semibold text-white shadow-soft hover:opacity-90; }
+.btn-secondary { @apply inline-flex items-center justify-center rounded-md border border-slate-300 bg-white px-6 py-3 font-semibold text-slate-900 hover:border-brand-orange hover:text-brand-orange; }
+.section-title { @apply text-3xl md:text-4xl font-extrabold tracking-tight text-slate-950; }
+.muted { @apply text-slate-600 leading-7; }
+.card { @apply rounded-2xl border border-slate-100 bg-white shadow-soft; }

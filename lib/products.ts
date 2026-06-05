@@ -1,0 +1,646 @@
+export const categories = [
+  {
+    "slug": "bakelite-handle",
+    "name": "Bakelite Handle",
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets."
+  },
+  {
+    "slug": "bakelite-side-handle",
+    "name": "Bakelite Side Handle",
+    "description": "Durable bakelite side handles for pots, casseroles and stockpots."
+  },
+  {
+    "slug": "bakelite-knob",
+    "name": "Bakelite Knob",
+    "description": "Bakelite lid knobs for glass lids and stainless steel lids."
+  },
+  {
+    "slug": "stainless-handle",
+    "name": "Stainless Handle",
+    "description": "Polished stainless steel long handles for premium cookware."
+  },
+  {
+    "slug": "stainless-side-handle",
+    "name": "Stainless Side Handle",
+    "description": "Stainless side handles with strong rivet or screw mounting."
+  },
+  {
+    "slug": "stainless-knob",
+    "name": "Stainless Knob",
+    "description": "Stainless steel knobs for cookware lids and glass covers."
+  },
+  {
+    "slug": "cast-zinc-handle",
+    "name": "Cast Zinc Handle",
+    "description": "Cast zinc handles with chrome plating or custom finishes."
+  },
+  {
+    "slug": "cast-zinc-side-handle",
+    "name": "Cast Zinc Side Handle",
+    "description": "Cast zinc side handles for cookware and lids."
+  },
+  {
+    "slug": "cast-zinc-lid-handle",
+    "name": "Cast Zinc Lid Handle",
+    "description": "Cast zinc lid handles for glass lids and stainless covers."
+  }
+] as const;
+
+export const products = [
+  {
+    "name": "Bakelite Handle RT-001",
+    "slug": "bakelite-handle-rt-001",
+    "category": "bakelite-handle",
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-handle.svg"
+  },
+  {
+    "name": "Bakelite Handle RT-002",
+    "slug": "bakelite-handle-rt-002",
+    "category": "bakelite-handle",
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-handle.svg"
+  },
+  {
+    "name": "Bakelite Handle RT-003",
+    "slug": "bakelite-handle-rt-003",
+    "category": "bakelite-handle",
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-handle.svg"
+  },
+  {
+    "name": "Bakelite Handle RT-004",
+    "slug": "bakelite-handle-rt-004",
+    "category": "bakelite-handle",
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-handle.svg"
+  },
+  {
+    "name": "Bakelite Handle RT-005",
+    "slug": "bakelite-handle-rt-005",
+    "category": "bakelite-handle",
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-handle.svg"
+  },
+  {
+    "name": "Bakelite Handle RT-006",
+    "slug": "bakelite-handle-rt-006",
+    "category": "bakelite-handle",
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-handle.svg"
+  },
+  {
+    "name": "Bakelite Side Handle RT-001",
+    "slug": "bakelite-side-handle-rt-001",
+    "category": "bakelite-side-handle",
+    "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-side-handle.svg"
+  },
+  {
+    "name": "Bakelite Side Handle RT-002",
+    "slug": "bakelite-side-handle-rt-002",
+    "category": "bakelite-side-handle",
+    "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-side-handle.svg"
+  },
+  {
+    "name": "Bakelite Side Handle RT-003",
+    "slug": "bakelite-side-handle-rt-003",
+    "category": "bakelite-side-handle",
+    "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-side-handle.svg"
+  },
+  {
+    "name": "Bakelite Side Handle RT-004",
+    "slug": "bakelite-side-handle-rt-004",
+    "category": "bakelite-side-handle",
+    "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-side-handle.svg"
+  },
+  {
+    "name": "Bakelite Side Handle RT-005",
+    "slug": "bakelite-side-handle-rt-005",
+    "category": "bakelite-side-handle",
+    "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-side-handle.svg"
+  },
+  {
+    "name": "Bakelite Side Handle RT-006",
+    "slug": "bakelite-side-handle-rt-006",
+    "category": "bakelite-side-handle",
+    "description": "Durable bakelite side handles for pots, casseroles and stockpots.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-side-handle.svg"
+  },
+  {
+    "name": "Bakelite Knob RT-001",
+    "slug": "bakelite-knob-rt-001",
+    "category": "bakelite-knob",
+    "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-knob.svg"
+  },
+  {
+    "name": "Bakelite Knob RT-002",
+    "slug": "bakelite-knob-rt-002",
+    "category": "bakelite-knob",
+    "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-knob.svg"
+  },
+  {
+    "name": "Bakelite Knob RT-003",
+    "slug": "bakelite-knob-rt-003",
+    "category": "bakelite-knob",
+    "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-knob.svg"
+  },
+  {
+    "name": "Bakelite Knob RT-004",
+    "slug": "bakelite-knob-rt-004",
+    "category": "bakelite-knob",
+    "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-knob.svg"
+  },
+  {
+    "name": "Bakelite Knob RT-005",
+    "slug": "bakelite-knob-rt-005",
+    "category": "bakelite-knob",
+    "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-knob.svg"
+  },
+  {
+    "name": "Bakelite Knob RT-006",
+    "slug": "bakelite-knob-rt-006",
+    "category": "bakelite-knob",
+    "description": "Bakelite lid knobs for glass lids and stainless steel lids.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220\u00b0C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-knob.svg"
+  },
+  {
+    "name": "Stainless Handle RT-001",
+    "slug": "stainless-handle-rt-001",
+    "category": "stainless-handle",
+    "description": "Polished stainless steel long handles for premium cookware.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-handle.svg"
+  },
+  {
+    "name": "Stainless Handle RT-002",
+    "slug": "stainless-handle-rt-002",
+    "category": "stainless-handle",
+    "description": "Polished stainless steel long handles for premium cookware.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-handle.svg"
+  },
+  {
+    "name": "Stainless Handle RT-003",
+    "slug": "stainless-handle-rt-003",
+    "category": "stainless-handle",
+    "description": "Polished stainless steel long handles for premium cookware.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-handle.svg"
+  },
+  {
+    "name": "Stainless Handle RT-004",
+    "slug": "stainless-handle-rt-004",
+    "category": "stainless-handle",
+    "description": "Polished stainless steel long handles for premium cookware.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-handle.svg"
+  },
+  {
+    "name": "Stainless Handle RT-005",
+    "slug": "stainless-handle-rt-005",
+    "category": "stainless-handle",
+    "description": "Polished stainless steel long handles for premium cookware.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-handle.svg"
+  },
+  {
+    "name": "Stainless Handle RT-006",
+    "slug": "stainless-handle-rt-006",
+    "category": "stainless-handle",
+    "description": "Polished stainless steel long handles for premium cookware.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-handle.svg"
+  },
+  {
+    "name": "Stainless Side Handle RT-001",
+    "slug": "stainless-side-handle-rt-001",
+    "category": "stainless-side-handle",
+    "description": "Stainless side handles with strong rivet or screw mounting.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-side-handle.svg"
+  },
+  {
+    "name": "Stainless Side Handle RT-002",
+    "slug": "stainless-side-handle-rt-002",
+    "category": "stainless-side-handle",
+    "description": "Stainless side handles with strong rivet or screw mounting.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-side-handle.svg"
+  },
+  {
+    "name": "Stainless Side Handle RT-003",
+    "slug": "stainless-side-handle-rt-003",
+    "category": "stainless-side-handle",
+    "description": "Stainless side handles with strong rivet or screw mounting.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-side-handle.svg"
+  },
+  {
+    "name": "Stainless Side Handle RT-004",
+    "slug": "stainless-side-handle-rt-004",
+    "category": "stainless-side-handle",
+    "description": "Stainless side handles with strong rivet or screw mounting.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-side-handle.svg"
+  },
+  {
+    "name": "Stainless Side Handle RT-005",
+    "slug": "stainless-side-handle-rt-005",
+    "category": "stainless-side-handle",
+    "description": "Stainless side handles with strong rivet or screw mounting.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-side-handle.svg"
+  },
+  {
+    "name": "Stainless Side Handle RT-006",
+    "slug": "stainless-side-handle-rt-006",
+    "category": "stainless-side-handle",
+    "description": "Stainless side handles with strong rivet or screw mounting.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-side-handle.svg"
+  },
+  {
+    "name": "Stainless Knob RT-001",
+    "slug": "stainless-knob-rt-001",
+    "category": "stainless-knob",
+    "description": "Stainless steel knobs for cookware lids and glass covers.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-knob.svg"
+  },
+  {
+    "name": "Stainless Knob RT-002",
+    "slug": "stainless-knob-rt-002",
+    "category": "stainless-knob",
+    "description": "Stainless steel knobs for cookware lids and glass covers.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-knob.svg"
+  },
+  {
+    "name": "Stainless Knob RT-003",
+    "slug": "stainless-knob-rt-003",
+    "category": "stainless-knob",
+    "description": "Stainless steel knobs for cookware lids and glass covers.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-knob.svg"
+  },
+  {
+    "name": "Stainless Knob RT-004",
+    "slug": "stainless-knob-rt-004",
+    "category": "stainless-knob",
+    "description": "Stainless steel knobs for cookware lids and glass covers.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-knob.svg"
+  },
+  {
+    "name": "Stainless Knob RT-005",
+    "slug": "stainless-knob-rt-005",
+    "category": "stainless-knob",
+    "description": "Stainless steel knobs for cookware lids and glass covers.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-knob.svg"
+  },
+  {
+    "name": "Stainless Knob RT-006",
+    "slug": "stainless-knob-rt-006",
+    "category": "stainless-knob",
+    "description": "Stainless steel knobs for cookware lids and glass covers.",
+    "material": "Stainless Steel",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/stainless-knob.svg"
+  },
+  {
+    "name": "Cast Zinc Handle RT-001",
+    "slug": "cast-zinc-handle-rt-001",
+    "category": "cast-zinc-handle",
+    "description": "Cast zinc handles with chrome plating or custom finishes.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Handle RT-002",
+    "slug": "cast-zinc-handle-rt-002",
+    "category": "cast-zinc-handle",
+    "description": "Cast zinc handles with chrome plating or custom finishes.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Handle RT-003",
+    "slug": "cast-zinc-handle-rt-003",
+    "category": "cast-zinc-handle",
+    "description": "Cast zinc handles with chrome plating or custom finishes.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Handle RT-004",
+    "slug": "cast-zinc-handle-rt-004",
+    "category": "cast-zinc-handle",
+    "description": "Cast zinc handles with chrome plating or custom finishes.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Handle RT-005",
+    "slug": "cast-zinc-handle-rt-005",
+    "category": "cast-zinc-handle",
+    "description": "Cast zinc handles with chrome plating or custom finishes.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Handle RT-006",
+    "slug": "cast-zinc-handle-rt-006",
+    "category": "cast-zinc-handle",
+    "description": "Cast zinc handles with chrome plating or custom finishes.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Side Handle RT-001",
+    "slug": "cast-zinc-side-handle-rt-001",
+    "category": "cast-zinc-side-handle",
+    "description": "Cast zinc side handles for cookware and lids.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-side-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Side Handle RT-002",
+    "slug": "cast-zinc-side-handle-rt-002",
+    "category": "cast-zinc-side-handle",
+    "description": "Cast zinc side handles for cookware and lids.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-side-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Side Handle RT-003",
+    "slug": "cast-zinc-side-handle-rt-003",
+    "category": "cast-zinc-side-handle",
+    "description": "Cast zinc side handles for cookware and lids.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-side-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Side Handle RT-004",
+    "slug": "cast-zinc-side-handle-rt-004",
+    "category": "cast-zinc-side-handle",
+    "description": "Cast zinc side handles for cookware and lids.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-side-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Side Handle RT-005",
+    "slug": "cast-zinc-side-handle-rt-005",
+    "category": "cast-zinc-side-handle",
+    "description": "Cast zinc side handles for cookware and lids.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-side-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Side Handle RT-006",
+    "slug": "cast-zinc-side-handle-rt-006",
+    "category": "cast-zinc-side-handle",
+    "description": "Cast zinc side handles for cookware and lids.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-side-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Lid Handle RT-001",
+    "slug": "cast-zinc-lid-handle-rt-001",
+    "category": "cast-zinc-lid-handle",
+    "description": "Cast zinc lid handles for glass lids and stainless covers.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-lid-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Lid Handle RT-002",
+    "slug": "cast-zinc-lid-handle-rt-002",
+    "category": "cast-zinc-lid-handle",
+    "description": "Cast zinc lid handles for glass lids and stainless covers.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-lid-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Lid Handle RT-003",
+    "slug": "cast-zinc-lid-handle-rt-003",
+    "category": "cast-zinc-lid-handle",
+    "description": "Cast zinc lid handles for glass lids and stainless covers.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-lid-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Lid Handle RT-004",
+    "slug": "cast-zinc-lid-handle-rt-004",
+    "category": "cast-zinc-lid-handle",
+    "description": "Cast zinc lid handles for glass lids and stainless covers.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-lid-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Lid Handle RT-005",
+    "slug": "cast-zinc-lid-handle-rt-005",
+    "category": "cast-zinc-lid-handle",
+    "description": "Cast zinc lid handles for glass lids and stainless covers.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-lid-handle.svg"
+  },
+  {
+    "name": "Cast Zinc Lid Handle RT-006",
+    "slug": "cast-zinc-lid-handle-rt-006",
+    "category": "cast-zinc-lid-handle",
+    "description": "Cast zinc lid handles for glass lids and stainless covers.",
+    "material": "Cast Zinc",
+    "finish": "Mirror polish / matte / chrome plating",
+    "heatResistance": "High temperature metal construction",
+    "moq": "1000 pcs",
+    "image": "/images/products/cast-zinc-lid-handle.svg"
+  }
+] as const;
+
+export type Product = typeof products[number];

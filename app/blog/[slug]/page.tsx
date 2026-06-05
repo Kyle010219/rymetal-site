@@ -1,0 +1,3 @@
+import { posts } from "@/lib/blog"; import { notFound } from "next/navigation";
+export function generateStaticParams(){ return posts.map(p=>({slug:p.slug})); }
+export default async function BlogPost({params}:{params:Promise<{slug:string}>}){ const {slug}=await params; const post=posts.find(p=>p.slug===slug); if(!post) notFound(); return <main className="container-xl py-16"><article className="prose max-w-3xl"><h1 className="text-4xl font-black">{post.title}</h1><p className="muted mt-5">{post.excerpt}</p><p className="muted mt-6">RT METAL provides professional OEM & ODM cookware handle solutions including material selection, structure design, mold development and quality inspection.</p></article></main> }

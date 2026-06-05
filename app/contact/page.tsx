@@ -1,0 +1,3 @@
+import InquiryForm from "@/components/InquiryForm";
+import { site } from "@/lib/site";
+export default function ContactPage(){ return <main className="container-xl grid gap-10 py-16 lg:grid-cols-2"><div><h1 className="section-title">Contact RT METAL</h1><p className="muted mt-5">Send your drawings, samples, quantity and target price. Our sales team will reply with quotation and solution.</p><p className="mt-8 font-semibold">Email: {site.email}<br/>WhatsApp: {site.phone}</p></div><InquiryForm /></main> }

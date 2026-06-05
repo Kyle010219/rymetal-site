@@ -1,0 +1,2 @@
+import Link from "next/link"; import { posts } from "@/lib/blog";
+export default function BlogPage(){ return <main className="container-xl py-16"><h1 className="section-title">News & Insights</h1><div className="mt-10 grid gap-6 md:grid-cols-3">{posts.map(p=><Link className="card p-8" href={`/blog/${p.slug}`} key={p.slug}><h2 className="text-xl font-bold">{p.title}</h2><p className="muted mt-3">{p.excerpt}</p></Link>)}</div></main> }
