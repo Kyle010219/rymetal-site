@@ -1,4 +1,11 @@
-export const categories = [
+export interface Category {
+  slug: string;
+  name: string;
+  description: string;
+  image?: string;
+}
+
+export const categories: Category[] = [
   {
     "slug": "bakelite-handle",
     "name": "Bakelite Handle",
@@ -20,34 +27,40 @@ export const categories = [
   {
     "slug": "stainless-handle",
     "name": "Stainless Handle",
-    "description": "Polished stainless steel long handles for premium cookware."
+    "description": "Polished stainless steel long handles for premium cookware.",
+    "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
   },
   {
     "slug": "stainless-side-handle",
     "name": "Stainless Side Handle",
-    "description": "Stainless side handles with strong rivet or screw mounting."
+    "description": "Stainless side handles with strong rivet or screw mounting.",
+    "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
   },
   {
     "slug": "stainless-knob",
     "name": "Stainless Knob",
-    "description": "Stainless steel knobs for cookware lids and glass covers."
+    "description": "Stainless steel knobs for cookware lids and glass covers.",
+    "image": "https://sc02.alicdn.com/kf/Hf9b746ff16ae43118025b5ee44761740O.png"
   },
   {
     "slug": "cast-zinc-handle",
     "name": "Cast Zinc Handle",
-    "description": "Cast zinc handles with chrome plating or custom finishes."
+    "description": "Cast zinc handles with chrome plating or custom finishes.",
+    "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
     "slug": "cast-zinc-side-handle",
     "name": "Cast Zinc Side Handle",
-    "description": "Cast zinc side handles for cookware and lids."
+    "description": "Cast zinc side handles for cookware and lids.",
+    "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   },
   {
     "slug": "cast-zinc-lid-handle",
     "name": "Cast Lid Handle",
-    "description": "Cast zinc lid handles for glass lids and stainless covers."
+    "description": "Cast zinc lid handles for glass lids and stainless covers.",
+    "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
   }
-] as const;
+];
 
 export const products = [
   {

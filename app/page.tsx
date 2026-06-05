@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import ProductCard from "@/components/ProductCard";
-import { categories, products } from "@/lib/products";
+import { categories, products, type Category } from "@/lib/products";
 import Link from "next/link";
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         
         <div className="grid gap-8 md:grid-cols-3">
-          {categories.slice(0, 3).map((c, index) => (
+          {categories.slice(0, 3).map((c: Category, index) => (
             <Link 
               key={c.slug} 
               href={`/category/${c.slug}`} 

@@ -9,9 +9,9 @@ export default function Hero() {
         loop
         muted
         playsInline
+        src="/videos/factory-tour.mp4"
         className="absolute inset-0 h-full w-full object-cover opacity-60 grayscale-[0.3]"
       >
-        <source src="/videos/factory-tour.mp4" type="video/mp4" />
       </video>
 
       {/* Modern Overlay Gradient */}
