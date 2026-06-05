@@ -8,50 +8,78 @@ export default function Home() {
     <main className="bg-white">
       <Hero />
 
-      {/* Material Innovation Section */}
-      <section className="container-xl py-48 relative overflow-hidden">
-        {/* Subtle decorative elements */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-50/50 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"></div>
+      {/* Material Innovation Section: Luxury Showroom Version */}
+      <section className="container-xl py-48 relative overflow-hidden bg-white">
+        {/* Architectural background texture */}
+        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-50/20 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-slate-50/50 rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2 pointer-events-none"></div>
         
-        <div className="flex flex-col items-end justify-between gap-12 md:flex-row mb-32 relative z-10">
-          <div className="max-w-2xl">
-            <span className="tag-industrial mb-6 block tracking-[0.3em]">Engineering The Future</span>
-            <h2 className="text-6xl lg:text-8xl font-black tracking-tighter leading-[0.85] text-slate-900">
-              The Trinity of <br/> <span className="text-blue-600">Hardware.</span>
+        <div className="flex flex-col items-start justify-between gap-12 lg:flex-row mb-32 relative z-10">
+          <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-3 mb-8">
+              <div className="w-12 h-px bg-[#FF9900]"></div>
+              <span className="text-[10px] font-black uppercase tracking-[0.4em] text-[#FF9900]">Materiality & Engineering</span>
+            </div>
+            <h2 className="text-7xl lg:text-[100px] font-black tracking-tighter leading-[0.8] text-slate-900 mb-8 italic">
+              THE <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-500">TRINITY.</span>
             </h2>
           </div>
-          <p className="muted max-w-sm text-lg border-l-2 border-slate-100 pl-8">
-            Every handle is a masterclass in ergonomics. We define the standard for Bakelite, Stainless, and Zinc components.
+          <p className="muted max-w-sm text-lg font-light leading-relaxed border-l border-slate-200 pl-10 mt-4">
+            Forging the future of cookware with the three pillars of high-performance hardware. Precision defined.
           </p>
         </div>
         
-        <div className="grid gap-10 md:grid-cols-3 relative z-10">
+        <div className="grid gap-12 md:grid-cols-3 relative z-10">
           {categories.slice(0, 3).map((c: Category, index) => (
             <Link 
               key={c.slug} 
               href={`/category/${c.slug}`} 
-              className="group card-luxury relative h-[600px] flex flex-col items-center text-center justify-between py-16"
+              className="group relative h-[650px] bg-white rounded-[3rem] border border-slate-50 shadow-2xl shadow-slate-200/50 hover:shadow-blue-100/40 transition-all duration-1000 overflow-hidden flex flex-col p-12"
             >
-              <div className="relative z-10 w-full">
-                <span className="text-7xl font-black text-blue-600/10 group-hover:text-[#FF9900]/20 transition-colors duration-700 italic block mb-2">0{index + 1}</span>
-                <h3 className="text-3xl font-bold tracking-tighter mb-4 group-hover:text-blue-600 transition-colors duration-500">{c.name}</h3>
-                <p className="muted text-xs font-bold uppercase tracking-[0.2em] px-4 opacity-60">{c.description}</p>
+              {/* Background Geometric Number */}
+              <div className="absolute top-10 right-10 text-[180px] font-black leading-none italic pointer-events-none select-none text-slate-50 group-hover:text-[#FF9900]/5 transition-colors duration-700">
+                0{index + 1}
               </div>
 
-              {/* Centered Product Visual */}
-              <div className="relative z-10 h-80 w-full flex items-center justify-center my-4">
-                <div className="absolute inset-0 bg-slate-50 rounded-full scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"></div>
+              {/* Title & Index */}
+              <div className="relative z-10">
+                <div className="flex items-center gap-4 mb-6">
+                  <span className="h-0.5 w-6 bg-blue-600 group-hover:bg-[#FF9900] transition-colors duration-500"></span>
+                  <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-blue-600 group-hover:text-[#FF9900]">Series 0{index + 1}</span>
+                </div>
+                <h3 className="text-4xl font-black tracking-tighter text-slate-900 mb-4 group-hover:translate-x-2 transition-transform duration-500">{c.name}</h3>
+                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-loose max-w-[200px] group-hover:text-slate-600 transition-colors duration-500">
+                   {index === 0 ? "ULTRA HEAT-SHIELD SOLUTIONS" : index === 1 ? "MIRROR-FORGED ARCHITECTURAL HARDWARE" : "SOLID-CORE PRECISION CASTING"}
+                </p>
+              </div>
+
+              {/* Centered Luxury Visual */}
+              <div className="relative flex-grow flex items-center justify-center py-8">
+                {/* Floating Shadow/Glow Base */}
+                <div className="absolute bottom-1/4 w-48 h-12 bg-blue-600/5 rounded-[100%] blur-2xl group-hover:bg-[#FF9900]/10 group-hover:w-64 transition-all duration-1000"></div>
+                
                 {c.image ? (
-                  <img src={c.image} alt={c.name} className="relative z-20 max-h-full max-w-[95%] object-contain drop-shadow-2xl transition-all duration-1000 transform group-hover:scale-105" />
+                  <div className="relative z-20 w-full h-full flex items-center justify-center">
+                     <img 
+                      src={c.image} 
+                      alt={c.name} 
+                      className="max-h-full max-w-[110%] object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.15)] group-hover:drop-shadow-[0_45px_45px_rgba(59,130,246,0.1)] transition-all duration-1000 transform group-hover:scale-105 group-hover:-translate-y-6" 
+                    />
+                  </div>
                 ) : (
-                  <div className="relative z-20 h-32 w-32 rounded-full border-2 border-dashed border-slate-200 flex items-center justify-center text-slate-300 text-[10px] font-bold uppercase tracking-widest">Image Pending</div>
+                  <div className="h-40 w-40 rounded-full border-2 border-dashed border-slate-100 flex items-center justify-center">
+                    <span className="text-[8px] font-black text-slate-300 uppercase tracking-widest italic">Specs Pending</span>
+                  </div>
                 )}
               </div>
 
-              <div className="relative z-10 mt-auto">
-                <div className="flex flex-col items-center gap-4 text-slate-900 font-black text-[10px] uppercase tracking-[0.3em] group-hover:text-blue-600 transition-all duration-500">
-                  <span className="w-px h-8 bg-slate-200 group-hover:bg-blue-600 transition-all duration-500 mb-2"></span>
-                  Discover Series
+              {/* Bottom Interaction */}
+              <div className="relative z-10 mt-auto pt-8 border-t border-slate-50 flex justify-between items-center">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900 group-hover:text-blue-600 transition-colors duration-500">View Master Collection</span>
+                <div className="w-12 h-12 rounded-full border border-slate-100 flex items-center justify-center group-hover:bg-slate-900 group-hover:border-slate-900 transition-all duration-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-300 group-hover:text-white transition-colors duration-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
                 </div>
               </div>
             </Link>
@@ -59,76 +87,70 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Collection */}
+      {/* Featured Collection: Professional Grid */}
       <section className="bg-slate-50 py-32 border-y border-slate-100">
         <div className="container-xl">
-          <div className="text-center mb-24">
-            <span className="tag-industrial mb-4 block">Master Collection</span>
-            <h2 className="section-title">Precision Crafted Components.</h2>
+          <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+            <div className="text-left">
+              <span className="tag-industrial mb-4 block tracking-[0.3em]">Curated Selection</span>
+              <h2 className="text-5xl font-black tracking-tighter">Precision Components.</h2>
+            </div>
+            <Link href="/products" className="inline-flex items-center gap-4 text-xs font-black uppercase tracking-[0.3em] hover:text-[#FF9900] transition group">
+              Master Catalog <span className="h-10 w-10 rounded-full bg-slate-900 text-white flex items-center justify-center group-hover:scale-110 transition duration-500">→</span>
+            </Link>
           </div>
           <div className="grid gap-10 md:grid-cols-3">
             {products.slice(0, 6).map(p => (
-              <div key={p.slug} className="group">
+              <div key={p.slug} className="group transition-transform duration-500 hover:-translate-y-2">
                 <ProductCard product={p} />
               </div>
             ))}
           </div>
-          <div className="mt-20 text-center">
-            <Link href="/products" className="inline-flex items-center gap-4 text-xs font-black uppercase tracking-[0.3em] hover:text-blue-600 transition group">
-              View Entire Catalog 
-              <span className="h-12 w-12 rounded-full border border-slate-200 flex items-center justify-center group-hover:bg-slate-900 group-hover:text-white transition duration-500">→</span>
-            </Link>
-          </div>
         </div>
       </section>
 
-      {/* OEM/ODM Excellence */}
+      {/* OEM/ODM Excellence: Dark Luxury Mode */}
       <section className="container-xl py-32 grid gap-24 lg:grid-cols-2 items-center">
         <div>
-          <span className="tag-industrial mb-6 block">Industrial R&D</span>
-          <h2 className="section-title mb-10">From Blueprints <br/> to Mass Production.</h2>
-          <p className="muted text-lg mb-12">
-            Equipped with 15 sets of high-tonnage injection machines and a dedicated CAD laboratory, RYMETAL provides seamless OEM/ODM services for global cookware brands.
+          <span className="text-[#FF9900] text-[10px] font-black tracking-[0.4em] mb-6 block uppercase">Bespoke R&D</span>
+          <h2 className="text-6xl font-black tracking-tighter leading-none mb-10 italic">Blueprints <br/> to Reality.</h2>
+          <p className="muted text-lg mb-12 font-light max-w-lg">
+            Our 18-year legacy in industrial engineering allows us to transform technical drawings into container-ready production within 25 business days.
           </p>
-          <div className="space-y-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 mb-12">
             {[
-              { title: "2D/3D Prototyping", desc: "Digital blueprints to physical samples in 48 hours." },
-              { title: "Custom Mold Tooling", desc: "High-precision mold development within 25 days." },
-              { title: "Global Logisitcs", desc: "Optimized shipping for containers to 60+ countries." }
+              { title: "2D/3D CAD", desc: "Expert prototyping." },
+              { title: "Custom Tooling", desc: "Precision molds." },
+              { title: "ISO Certified", desc: "Global quality." },
+              { title: "ROHS Compliant", desc: "Safe materials." }
             ].map(item => (
-              <div key={item.title} className="flex gap-6 items-start">
-                <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-2.5"></div>
-                <div>
-                  <h4 className="font-bold text-slate-900">{item.title}</h4>
-                  <p className="text-sm text-slate-500">{item.desc}</p>
-                </div>
+              <div key={item.title} className="border-b border-slate-100 pb-4">
+                <h4 className="font-bold text-slate-900 text-sm mb-1">{item.title}</h4>
+                <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">{item.desc}</p>
               </div>
             ))}
           </div>
-          <Link href="/oem-odm" className="inline-block bg-slate-900 text-white px-10 py-5 rounded-full font-bold text-xs uppercase tracking-widest hover:bg-blue-600 transition shadow-xl">Start Your Project</Link>
+          <Link href="/oem-odm" className="inline-block bg-slate-900 text-white px-12 py-6 rounded-full font-black text-[10px] uppercase tracking-[0.4em] hover:bg-blue-600 transition shadow-2xl">Initialize Project</Link>
         </div>
         
-        <div className="relative">
-           {/* Decorative grid pattern */}
-          <div className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none -translate-x-12 translate-y-12">
-            <div className="h-full w-full bg-[linear-gradient(to_right,#000_1px,transparent_1px),linear-gradient(to_bottom,#000_1px,transparent_1px)] bg-[size:30px_30px]"></div>
-          </div>
-          <div className="grid grid-cols-2 gap-6 relative z-10">
-            <div className="card-luxury p-8 aspect-square flex flex-col justify-center text-center">
-              <div className="text-4xl font-black mb-2 italic">18Y</div>
-              <p className="tag-industrial text-[8px]">Experience</p>
+        <div className="relative p-12 lg:p-20">
+          <div className="absolute inset-0 bg-blue-50/30 rounded-[4rem] -rotate-3 border border-blue-100"></div>
+          <div className="relative z-10 grid grid-cols-2 gap-8">
+            <div className="bg-white p-12 rounded-[2.5rem] shadow-xl text-center flex flex-col justify-center aspect-square transform hover:-rotate-3 transition duration-500">
+              <div className="text-5xl font-black text-slate-900 mb-2 italic">18Y</div>
+              <p className="text-[8px] font-black uppercase tracking-[0.3em] text-[#FF9900]">Engineering</p>
             </div>
-            <div className="card-luxury p-8 aspect-square flex flex-col justify-center text-center mt-12 bg-blue-600 border-blue-600 shadow-blue-100">
-              <div className="text-4xl font-black mb-2 text-white italic">15</div>
-              <p className="tag-industrial text-[8px] text-blue-100">High-Tech Machines</p>
+            <div className="bg-slate-900 p-12 rounded-[2.5rem] shadow-2xl text-center flex flex-col justify-center aspect-square mt-12 transform hover:rotate-3 transition duration-500">
+              <div className="text-5xl font-black text-white mb-2 italic text-transparent bg-clip-text bg-gradient-to-tr from-white to-blue-400">15</div>
+              <p className="text-[8px] font-black uppercase tracking-[0.3em] text-blue-400">High-Tech Lines</p>
             </div>
-            <div className="card-luxury p-8 aspect-square flex flex-col justify-center text-center">
-              <div className="text-4xl font-black mb-2 italic">50K+</div>
-              <p className="tag-industrial text-[8px]">Daily Output</p>
+            <div className="bg-white p-12 rounded-[2.5rem] shadow-xl text-center flex flex-col justify-center aspect-square transform hover:rotate-3 transition duration-500">
+              <div className="text-5xl font-black text-slate-900 mb-2 italic text-transparent bg-clip-text bg-gradient-to-tr from-slate-900 to-slate-400">50K</div>
+              <p className="text-[8px] font-black uppercase tracking-[0.3em] text-slate-400">Daily Output</p>
             </div>
-            <div className="card-luxury p-8 aspect-square flex flex-col justify-center text-center mt-12">
-              <div className="text-4xl font-black mb-2 italic">100%</div>
-              <p className="tag-industrial text-[8px]">QC Verified</p>
+            <div className="bg-white p-12 rounded-[2.5rem] shadow-xl text-center flex flex-col justify-center aspect-square mt-12 transform hover:-rotate-3 transition duration-500 border-2 border-blue-50">
+              <div className="text-5xl font-black text-blue-600 mb-2 italic">100%</div>
+              <p className="text-[8px] font-black uppercase tracking-[0.3em] text-blue-600">QC Verified</p>
             </div>
           </div>
         </div>
