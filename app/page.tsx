@@ -34,7 +34,7 @@ export default function Home() {
             <Link 
               key={c.slug} 
               href={`/category/${c.slug}`} 
-              className="group relative h-[520px] bg-white rounded-[2.5rem] border border-slate-50 shadow-2xl shadow-slate-200/50 hover:shadow-blue-100/40 transition-all duration-1000 overflow-hidden flex flex-col p-10"
+              className="group relative min-h-[520px] bg-white rounded-[2.5rem] border border-slate-50 shadow-2xl shadow-slate-200/50 hover:shadow-blue-100/40 transition-all duration-1000 overflow-hidden flex flex-col p-10"
             >
               {/* Background Geometric Number */}
               <div className="absolute top-6 right-6 text-[140px] font-black leading-none italic pointer-events-none select-none text-slate-50 group-hover:text-[#FF9900]/5 transition-colors duration-700">
