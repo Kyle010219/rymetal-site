@@ -39,10 +39,10 @@ export default function Home() {
               </div>
 
               {/* Centered Product Visual */}
-              <div className="relative z-10 h-64 w-full flex items-center justify-center my-8">
-                <div className="absolute inset-0 bg-slate-50 rounded-full scale-75 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-700"></div>
+              <div className="relative z-10 h-80 w-full flex items-center justify-center my-4">
+                <div className="absolute inset-0 bg-slate-50 rounded-full scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"></div>
                 {c.image ? (
-                  <img src={c.image} alt={c.name} className="relative z-20 max-h-full max-w-[80%] object-contain drop-shadow-2xl transition-all duration-1000 transform group-hover:scale-110" />
+                  <img src={c.image} alt={c.name} className="relative z-20 max-h-full max-w-[95%] object-contain drop-shadow-2xl transition-all duration-1000 transform group-hover:scale-105" />
                 ) : (
                   <div className="relative z-20 h-32 w-32 rounded-full border-2 border-dashed border-slate-200 flex items-center justify-center text-slate-300 text-[10px] font-bold uppercase tracking-widest">Image Pending</div>
                 )}

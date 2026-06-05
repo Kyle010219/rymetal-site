@@ -9,7 +9,8 @@ export const categories: Category[] = [
   {
     "slug": "bakelite-handle",
     "name": "Bakelite Handle",
-    "description": "Professional heat-resistant ergonomic solutions."
+    "description": "",
+    "image": "https://sc02.alicdn.com/kf/H80d06499fc2b401cb9c679f3d8435d11K.png"
   },
   {
     "slug": "bakelite-side-handle",
