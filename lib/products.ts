@@ -22,7 +22,7 @@ export const categories: Category[] = [
     "slug": "cast-zinc-handle",
     "name": "Cast Series",
     "description": "",
-    "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
+    "image": "https://sc02.alicdn.com/kf/H1c50026d8b1846f4991a272091be23c00.png"
   },
   {
     "slug": "bakelite-side-handle",
