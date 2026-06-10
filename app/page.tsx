@@ -93,7 +93,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
             <div className="text-left">
               <span className="tag-industrial mb-4 block tracking-[0.3em]">Curated Selection</span>
-              <h2 className="text-5xl font-black tracking-tighter">Precision Components.</h2>
+              <h2 className="text-5xl lg:text-6xl font-black tracking-tighter italic">
+                RECOMMENDED <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-[#FF9900]">PRODUCTS.</span>
+              </h2>
             </div>
             <Link href="/products" className="inline-flex items-center gap-4 text-xs font-black uppercase tracking-[0.3em] hover:text-[#FF9900] transition group">
               Master Catalog <span className="h-10 w-10 rounded-full bg-slate-900 text-white flex items-center justify-center group-hover:scale-110 transition duration-500">→</span>
