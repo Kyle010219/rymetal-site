@@ -3,12 +3,14 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative min-h-[85vh] w-full overflow-hidden bg-slate-900 flex items-center py-24 lg:py-32">
-      {/* Background Video */}
+      {/* Background Video with Poster Fallback */}
       <video
         autoPlay
         loop
         muted
         playsInline
+        preload="auto"
+        poster="https://sc02.alicdn.com/kf/H4d94bbb1ccda4bec95b4366dd8ac49e0T.png"
         src="/videos/factory-tour.mp4"
         className="absolute inset-0 h-full w-full object-cover opacity-60 grayscale-[0.3]"
       >
