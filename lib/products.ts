@@ -63,18 +63,18 @@ export const categories: Category[] = [
 
 export const products = [
   {
-    "name": "Bakelite Handle RT-001",
-    "slug": "bakelite-handle-rt-001",
+    "name": "Foldable Bakelite Handle RY-F01",
+    "slug": "foldable-bakelite-handle-ry-f01",
     "category": "bakelite-handle",
-    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
-    "material": "Bakelite",
-    "finish": "Black / custom color",
-    "heatResistance": "Up to 220\u00b0C",
+    "description": "Space-saving foldable bakelite handle. Features a red safety lock button and heat-resistant construction, perfect for modern nested cookware sets.",
+    "material": "Bakelite & Stainless Steel",
+    "finish": "Matte Black with Red Accents",
+    "heatResistance": "Up to 200°C",
     "moq": "1000 pcs",
-    "image": "/images/products/bakelite-handle.svg"
+    "image": "https://sc02.alicdn.com/kf/H4023b9f6808d416993508337d2ffa6c5b.png"
   },
   {
-    "name": "Bakelite Handle RT-002",
+    "name": "Bakelite Handle RY-001",
     "slug": "bakelite-handle-rt-002",
     "category": "bakelite-handle",
     "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
