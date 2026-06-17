@@ -74,7 +74,7 @@ export const products = [
     "image": "https://sc02.alicdn.com/kf/H4023b9f6808d416993508337d2ffa6c5b.png"
   },
   {
-    "name": "Lavender Series Cookware Set",
+    "name": "Bakelite Handle RY-F02",
     "slug": "lavender-series-cookware-set",
     "category": "stainless-handle",
     "description": "Premium 3-piece stainless steel cookware set featuring ergonomic lavender-purple heat-resistant handles and mirror-polished finish.",
