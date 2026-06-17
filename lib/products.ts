@@ -82,7 +82,7 @@ export const products = [
     "finish": "Mirror Polished / Lavender Soft-touch",
     "heatResistance": "Professional Grade",
     "moq": "500 sets",
-    "image": "https://sc02.alicdn.com/kf/Aa2607a15002c4681ac8f86338865b680g.png"
+    "image": "https://sc02.alicdn.com/kf/A22689bb9e9a04f3da434a0d3a2a8152a6.png"
   },
   {
     "name": "Bakelite Handle RY-001",
