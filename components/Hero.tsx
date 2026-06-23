@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative min-h-[85vh] w-full overflow-hidden bg-slate-900 flex items-center py-24 lg:py-32">
-      {/* Background Video with Double Sources & Poster Fallback */}
+      {/* Background Video with R2 CDN Acceleration */}
       <video
         autoPlay
         loop
@@ -13,11 +13,10 @@ export default function Hero() {
         poster="https://sc02.alicdn.com/kf/H4d94bbb1ccda4bec95b4366dd8ac49e0T.png"
         className="absolute inset-0 h-full w-full object-cover opacity-60 grayscale-[0.3]"
       >
-        {/* 如果你把视频上传到了 R2，请把下方的 R2 链接替换为真实的，它会走 Cloudflare 全球 CDN 加速 */}
-        <source src="https://your-r2-public-url.com/factory-tour.webm" type="video/webm" />
-        <source src="https://your-r2-public-url.com/factory-tour.mp4" type="video/mp4" />
+        {/* 请将下方的 URL 替换为您从 R2 获取的真实链接 */}
+        <source src="https://pub-your-r2-id.r2.dev/factory-tour.mp4" type="video/mp4" />
         
-        {/* 本地备用通道 */}
+        {/* 本地备份路径 */}
         <source src="/videos/factory-tour.mp4" type="video/mp4" />
       </video>
 
