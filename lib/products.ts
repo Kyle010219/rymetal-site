@@ -94,7 +94,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Lavender Soft-touch",
     "heatResistance": "Professional Grade",
     "moq": "500 sets",
-    "image": "https://sc02.alicdn.com/kf/A22689bb9e9a04f3da434a0d3a2a8152a6.png"
+    "image": "https://sc02.alicdn.com/kf/A7af33b49c5ff4a9a84a1ff55b3aa45d9y.png"
   },
   {
     "name": "Stainless Steel Handle RY-S01",
