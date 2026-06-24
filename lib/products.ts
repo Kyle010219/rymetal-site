@@ -127,7 +127,7 @@ export const products: Product[] = [
     "finish": "Black / custom color",
     "heatResistance": "Up to 220°C",
     "moq": "1000 pcs",
-    "image": "/images/products/bakelite-handle.svg"
+    "image": "https://sc02.alicdn.com/kf/Ha160f2a2ec30455e82f66bd1e6174ca4Q.png"
   },
   {
     "name": "Bakelite Handle RY-002",
