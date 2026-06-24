@@ -171,7 +171,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob1.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob1.png"
   },
   {
     "name": "Stainless Steel Knob SSK-002",
@@ -182,7 +182,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob2.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob2.png"
   },
   {
     "name": "Stainless Steel Knob SSK-003",
@@ -193,7 +193,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob3.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob3.png"
   },
   {
     "name": "Stainless Steel Knob SSK-004",
@@ -204,7 +204,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob4.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob4.png"
   },
   {
     "name": "Stainless Steel Knob SSK-005",
@@ -215,7 +215,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob5.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob5.png"
   },
   {
     "name": "Stainless Steel Knob SSK-006",
@@ -226,7 +226,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob6.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob6.png"
   },
   {
     "name": "Stainless Steel Knob SSK-007",
@@ -237,7 +237,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob7.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob7.png"
   },
   {
     "name": "Stainless Steel Knob SSK-008",
@@ -248,7 +248,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob8.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob8.png"
   },
   {
     "name": "Stainless Steel Knob SSK-009",
@@ -259,7 +259,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob9.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob9.png"
   },
   {
     "name": "Stainless Steel Knob SSK-010",
@@ -270,7 +270,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob10.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob10.png"
   },
   {
     "name": "Stainless Steel Knob SSK-011",
@@ -281,7 +281,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob11.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob11.png"
   },
   {
     "name": "Stainless Steel Knob SSK-012",
@@ -292,7 +292,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob12.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob12.png"
   },
   {
     "name": "Stainless Steel Knob SSK-013",
@@ -303,7 +303,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob13.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob13.png"
   },
   {
     "name": "Stainless Steel Knob SSK-014",
@@ -314,7 +314,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob14.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob14.png"
   },
   {
     "name": "Stainless Steel Knob SSK-015",
@@ -325,7 +325,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob15.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob15.png"
   },
   {
     "name": "Stainless Steel Knob SSK-016",
@@ -336,7 +336,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob16.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob16.png"
   },
   {
     "name": "Stainless Steel Knob SSK-017",
@@ -347,7 +347,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob17.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob17.png"
   },
   {
     "name": "Stainless Steel Knob SSK-018",
@@ -358,7 +358,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob18.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob18.png"
   },
   {
     "name": "Stainless Steel Knob SSK-019",
@@ -369,7 +369,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob19.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob19.png"
   },
   {
     "name": "Stainless Steel Knob SSK-020",
@@ -380,7 +380,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob20.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob20.png"
   },
   {
     "name": "Stainless Steel Knob SSK-021",
@@ -391,7 +391,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob21.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob21.png"
   },
   {
     "name": "Stainless Steel Knob SSK-022",
@@ -402,7 +402,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob22.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob22.png"
   },
   {
     "name": "Stainless Steel Knob SSK-023",
@@ -413,7 +413,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob23.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob23.png"
   },
   {
     "name": "Stainless Steel Knob SSK-024",
@@ -424,6 +424,6 @@ export const products: Product[] = [
     "finish": "Mirror Polished / Brushed",
     "heatResistance": "Professional Grade",
     "moq": "1000 pcs",
-    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob24.png"
+    "image": "https://pub-8753fc03b5764b3d94f0b95d3b9473a8.r2.dev/stainlessknob24.png"
   }
 ];
