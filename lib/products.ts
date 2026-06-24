@@ -163,3 +163,269 @@ export const products: Product[] = [
     "image": "/images/products/bakelite-handle.svg"
   }
 ];
+
+  {
+    "name": "Stainless Steel Knob SSK-001",
+    "slug": "stainless-knob-ssk-001",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob1.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-002",
+    "slug": "stainless-knob-ssk-002",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob2.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-003",
+    "slug": "stainless-knob-ssk-003",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob3.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-004",
+    "slug": "stainless-knob-ssk-004",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob4.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-005",
+    "slug": "stainless-knob-ssk-005",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob5.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-006",
+    "slug": "stainless-knob-ssk-006",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob6.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-007",
+    "slug": "stainless-knob-ssk-007",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob7.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-008",
+    "slug": "stainless-knob-ssk-008",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob8.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-009",
+    "slug": "stainless-knob-ssk-009",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob9.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-010",
+    "slug": "stainless-knob-ssk-010",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob10.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-011",
+    "slug": "stainless-knob-ssk-011",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob11.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-012",
+    "slug": "stainless-knob-ssk-012",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob12.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-013",
+    "slug": "stainless-knob-ssk-013",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob13.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-014",
+    "slug": "stainless-knob-ssk-014",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob14.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-015",
+    "slug": "stainless-knob-ssk-015",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob15.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-016",
+    "slug": "stainless-knob-ssk-016",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob16.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-017",
+    "slug": "stainless-knob-ssk-017",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob17.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-018",
+    "slug": "stainless-knob-ssk-018",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob18.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-019",
+    "slug": "stainless-knob-ssk-019",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob19.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-020",
+    "slug": "stainless-knob-ssk-020",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob20.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-021",
+    "slug": "stainless-knob-ssk-021",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob21.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-022",
+    "slug": "stainless-knob-ssk-022",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob22.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-023",
+    "slug": "stainless-knob-ssk-023",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob23.png"
+  },
+  {
+    "name": "Stainless Steel Knob SSK-024",
+    "slug": "stainless-knob-ssk-024",
+    "category": "stainless-knob",
+    "description": "High-quality stainless steel knob with customizable color options and silicon additions.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished / Brushed",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://stainless-long-handle-bucket.r2.cloudflarestorage.com/stainlessknob24.png"
+  }
+];
