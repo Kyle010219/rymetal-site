@@ -105,7 +105,7 @@ export const products: Product[] = [
     "finish": "Mirror Polished",
     "heatResistance": "Ultra-High Metal Construction",
     "moq": "1000 pcs",
-    "image": "https://sc02.alicdn.com/kf/H97544b5d4651496dae0076636a28a2709.png"
+    "image": "https://sc02.alicdn.com/kf/Hf8ddddaa29ea42f98bbe0401b60a6dd07.png"
   },
   {
     "name": "Stainless Handle RY-S02",
