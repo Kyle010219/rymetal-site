@@ -161,9 +161,7 @@ export const products: Product[] = [
     "heatResistance": "Up to 220°C",
     "moq": "1000 pcs",
     "image": "/images/products/bakelite-handle.svg"
-  }
-];
-
+  },
   {
     "name": "Stainless Steel Knob SSK-001",
     "slug": "stainless-knob-ssk-001",
