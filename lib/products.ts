@@ -85,20 +85,51 @@ export const products = [
     "image": "https://sc02.alicdn.com/kf/A22689bb9e9a04f3da434a0d3a2a8152a6.png"
   },
   {
+    "name": "Stainless Steel Handle RY-S01",
+    "slug": "stainless-steel-handle-ry-s01",
+    "category": "stainless-handle",
+    "description": "Premium heavy-duty stainless steel long handle. Ergonomically engineered for balanced weight distribution, offering architectural-grade durability and a sleek mirror-polished finish for high-end cookware lines.",
+    "material": "Stainless Steel",
+    "finish": "Mirror Polished",
+    "heatResistance": "Ultra-High Metal Construction",
+    "moq": "1000 pcs",
+    "image": "https://sc02.alicdn.com/kf/A886a308b15a246cdbf6e01c0c2a8714f0.png"
+  },
+  {
+    "name": "Stainless Handle RY-S02",
+    "slug": "stainless-handle-ry-s02",
+    "category": "stainless-handle",
+    "description": "High-precision stainless steel cookware component with a durable brushed finish.",
+    "material": "Stainless Steel",
+    "finish": "Brushed / Satin",
+    "heatResistance": "Professional Grade",
+    "moq": "1000 pcs",
+    "image": "https://sc02.alicdn.com/kf/He3c5d0f2468d428da4167251c56fb638W.png"
+  },
+  {
     "name": "Bakelite Handle RY-001",
-    "slug": "bakelite-handle-rt-002",
+    "slug": "bakelite-handle-ry-001",
     "category": "bakelite-handle",
     "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
     "material": "Bakelite",
     "finish": "Black / custom color",
-    "heatResistance": "Up to 220\u00b0C",
+    "heatResistance": "Up to 220°C",
     "moq": "1000 pcs",
     "image": "/images/products/bakelite-handle.svg"
   },
   {
-    "name": "Bakelite Handle RT-003",
-    "slug": "bakelite-handle-rt-003",
+    "name": "Bakelite Handle RY-002",
+    "slug": "bakelite-handle-ry-002",
     "category": "bakelite-handle",
+    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
+    "material": "Bakelite",
+    "finish": "Black / custom color",
+    "heatResistance": "Up to 220°C",
+    "moq": "1000 pcs",
+    "image": "/images/products/bakelite-handle.svg"
+  },
+  {
+    "name": "Bakelite Handle RY-003",
     "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
     "material": "Bakelite",
     "finish": "Black / custom color",
