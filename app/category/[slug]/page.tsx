@@ -13,7 +13,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     <main className="container-xl py-14">
       <h1 className="section-title">{category.name}</h1>
       <p className="muted mt-4 max-w-3xl">{category.description} RT METAL provides OEM & ODM production for cookware brands and importers.</p>
-      <div className="mt-10 grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">{items.map(p => <ProductCard key={p.slug} product={p} />)}</div>
+      <div className="mt-10 grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">{items.map(p => <ProductCard key={p.slug} product={p} />)}</div>
     </main>
   );
 }
