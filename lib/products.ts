@@ -27,13 +27,14 @@ export const categories: Category[] = [
   {
     "slug": "bakelite-side-handle",
     "name": "Bakelite Side Handle",
-    "description": "High-durability safety components for pots."
+    "description": "High-durability safety components for pots.",
+    "image": "https://pub-f242d115d9ce4c4888c88bae02552ea7.r2.dev/bakelitesidehandle1.png"
   },
   {
     "slug": "bakelite-knob",
     "name": "Bakelite Knob",
     "description": "Precision lid accessories for every cover.",
-    "image": "https://sc02.alicdn.com/kf/H987654321.jpg"
+    "image": "https://pub-10ef6b710ab8474f9c9275fe25718b09.r2.dev/bakeliteknob1.png"
   },
   {
     "slug": "stainless-side-handle",
@@ -72,8 +73,6 @@ export interface Product {
   moq: string;
   image: string;
 }
-
-const productBaseUrl = "https://pub-10ef6b710ab8474f9c9275fe25718b09.r2.dev/";
 
 export const products: Product[] = [
   {
@@ -145,7 +144,22 @@ export const products: Product[] = [
       "moq": "1000 pcs",
       "image": fileNameId === "38" 
         ? "https://sc02.alicdn.com/kf/Hd36dc8fcef1a4b5885d9f7944e93148dv.png"
-        : `${productBaseUrl}bakeliteknob${fileNameId}.png`
+        : `https://pub-10ef6b710ab8474f9c9275fe25718b09.r2.dev/bakeliteknob${fileNameId}.png`
+    };
+  }),
+  ...Array.from({ length: 90 }, (_, i) => {
+    const id = String(i + 1).padStart(3, '0');
+    const fileNameId = String(i + 1);
+    return {
+      "name": `Bakelite Side Handle BS-${id}`,
+      "slug": `bakelite-side-handle-bs-${id}`,
+      "category": "bakelite-side-handle",
+      "description": "Durable bakelite side handle with high heat resistance and ergonomic grip.",
+      "material": "Bakelite",
+      "finish": "Matte Black",
+      "heatResistance": "Up to 200°C",
+      "moq": "1000 pcs",
+      "image": `https://pub-f242d115d9ce4c4888c88bae02552ea7.r2.dev/bakelitesidehandle${fileNameId}.png`
     };
   }),
   {
