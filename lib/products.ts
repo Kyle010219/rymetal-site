@@ -143,7 +143,7 @@ export const products: Product[] = [
       "finish": "Black / Custom Color",
       "heatResistance": "Up to 200°C",
       "moq": "1000 pcs",
-      "image": `${productBaseUrl}Bakeliteknob${fileNameId}.png`
+      "image": `${productBaseUrl}bakeliteknob${fileNameId}.png`
     };
   }),
   {
