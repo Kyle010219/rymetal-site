@@ -143,7 +143,9 @@ export const products: Product[] = [
       "finish": "Black / Custom Color",
       "heatResistance": "Up to 200°C",
       "moq": "1000 pcs",
-      "image": `${productBaseUrl}bakeliteknob${fileNameId}.png`
+      "image": fileNameId === "38" 
+        ? "https://sc02.alicdn.com/kf/Hd36dc8fcef1a4b5885d9f7944e93148dv.png"
+        : `${productBaseUrl}bakeliteknob${fileNameId}.png`
     };
   }),
   {
