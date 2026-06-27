@@ -101,8 +101,8 @@ export default function Home() {
               Master Catalog <span className="h-10 w-10 rounded-full bg-slate-900 text-white flex items-center justify-center group-hover:scale-110 transition duration-500">→</span>
             </Link>
           </div>
-          <div className="grid gap-10 md:grid-cols-3">
-            {products.slice(0, 6).map(p => (
+          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            {products.slice(0, 10).map(p => (
               <div key={p.slug} className="group transition-transform duration-500 hover:-translate-y-2">
                 <ProductCard product={p} />
               </div>

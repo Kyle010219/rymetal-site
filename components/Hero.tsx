@@ -14,7 +14,7 @@ export default function Hero() {
         className="absolute inset-0 h-full w-full object-cover opacity-60 grayscale-[0.3]"
       >
         {/* 请将下方的 URL 替换为您从 R2 获取的真实链接 */}
-        <source src="https://pub-your-r2-id.r2.dev/factory-tour.mp4" type="video/mp4" />
+        <source src="https://pub-d79cf73b922b4332b01b982bcb6c6834.r2.dev/factory-tour.mp4" type="video/mp4" />
         
         {/* 本地备份路径 */}
         <source src="/videos/factory-tour.mp4" type="video/mp4" />
