@@ -73,6 +73,8 @@ export interface Product {
   image: string;
 }
 
+const productBaseUrl = "https://pub-10ef6b710ab8474f9c9275fe25718b09.r2.dev/";
+
 export const products: Product[] = [
   {
     "name": "Foldable Bakelite Handle RY-F01",
@@ -129,39 +131,21 @@ export const products: Product[] = [
     "moq": "1000 pcs",
     "image": "https://sc02.alicdn.com/kf/Ha160f2a2ec30455e82f66bd1e6174ca4Q.png"
   },
-  {
-    "name": "Bakelite Handle RY-002",
-    "slug": "bakelite-handle-ry-002",
-    "category": "bakelite-handle",
-    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
-    "material": "Bakelite",
-    "finish": "Black / custom color",
-    "heatResistance": "Up to 220°C",
-    "moq": "1000 pcs",
-    "image": "/images/products/bakelite-handle.svg"
-  },
-  {
-    "name": "Bakelite Handle RY-003",
-    "slug": "bakelite-handle-ry-003",
-    "category": "bakelite-handle",
-    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
-    "material": "Bakelite",
-    "finish": "Black / custom color",
-    "heatResistance": "Up to 220°C",
-    "moq": "1000 pcs",
-    "image": "/images/products/bakelite-handle.svg"
-  },
-  {
-    "name": "Bakelite Handle RY-004",
-    "slug": "bakelite-handle-ry-004",
-    "category": "bakelite-handle",
-    "description": "Heat-resistant bakelite long handles for frying pans, saucepans and cookware sets.",
-    "material": "Bakelite",
-    "finish": "Black / custom color",
-    "heatResistance": "Up to 220°C",
-    "moq": "1000 pcs",
-    "image": "/images/products/bakelite-handle.svg"
-  },
+  ...Array.from({ length: 43 }, (_, i) => {
+    const id = String(i + 1).padStart(3, '0');
+    const fileNameId = String(i + 1);
+    return {
+      "name": `Bakelite Knob BK-${id}`,
+      "slug": `bakelite-knob-bk-${id}`,
+      "category": "bakelite-knob",
+      "description": "High-quality bakelite knob with customizable color options.",
+      "material": "Bakelite",
+      "finish": "Black / Custom Color",
+      "heatResistance": "Up to 200°C",
+      "moq": "1000 pcs",
+      "image": `${productBaseUrl}Bakeliteknob${fileNameId}.png`
+    };
+  }),
   {
     "name": "Stainless Steel Knob SSK-001",
     "slug": "stainless-knob-ssk-001",
