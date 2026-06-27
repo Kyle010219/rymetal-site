@@ -28,7 +28,7 @@ export const categories: Category[] = [
     "slug": "bakelite-side-handle",
     "name": "Bakelite Side Handle",
     "description": "High-durability safety components for pots.",
-    "image": "https://pub-f242d115d9ce4c4888c88bae02552ea7.r2.dev/bakelitesidehandle1.png"
+    "image": "https://pub-f242d115d9ce4c4888c88bae02552ea7.r2.dev/BAKIELITE%20SIDE%20HANDLE1.png"
   },
   {
     "slug": "bakelite-knob",
@@ -159,7 +159,7 @@ export const products: Product[] = [
       "finish": "Matte Black",
       "heatResistance": "Up to 200°C",
       "moq": "1000 pcs",
-      "image": `https://pub-f242d115d9ce4c4888c88bae02552ea7.r2.dev/bakelitesidehandle${fileNameId}.png`
+      "image": `https://pub-f242d115d9ce4c4888c88bae02552ea7.r2.dev/BAKIELITE%20SIDE%20HANDLE${fileNameId}.png`
     };
   }),
   {
