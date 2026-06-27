@@ -128,7 +128,7 @@ export const products: Product[] = [
     "finish": "Black / custom color",
     "heatResistance": "Up to 220°C",
     "moq": "1000 pcs",
-    "image": "https://sc02.alicdn.com/kf/Ha160f2a2ec30455e82f66bd1e6174ca4Q.png"
+    "image": "https://sc02.alicdn.com/kf/H4003e64c04df4f5489eeaf41358576deo.png"
   },
   ...Array.from({ length: 43 }, (_, i) => {
     const id = String(i + 1).padStart(3, '0');
